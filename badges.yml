@@ -1,24 +1,52 @@
-build_status:
-  image: "https://img.shields.io/github/actions/workflow/user/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App/ci.yml?style=flat-square"
-  title: "Build Status"
-  url: "https://github.com/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App/actions/workflows/ci.yml"
-coverage:
-  image: "https://img.shields.io/codecov/c/github/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App?style=flat-square"
-  title: "Code Coverage"
-  url: "https://codecov.io/gh/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App"
-tech_stack:
-  image: "https://img.shields.io/badge/dynamic/json?style=flat-square&url=https%3A%2F%2Fraw.githubusercontent.com%2Fchirag127%2FVidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App%2Fmain%2Fpackage.json&label=Tech%20Stack&query=%24%5Bprimary%2C%24%5Bframework%5D%5D&color=blue"
-  title: "Tech Stack"
-  url: "https://github.com/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App"
-lint_format:
-  image: "https://img.shields.io/badge/lint-ruff-yellow?style=flat-square"
-  title: "Linting & Formatting"
-  url: "https://github.com/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App"
-license:
-  image: "https://img.shields.io/badge/license-CC%20BY--NC%204.0-orange?style=flat-square"
-  title: "License"
-  url: "https://github.com/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App/blob/main/LICENSE"
-stars:
-  image: "https://img.shields.io/github/stars/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App?style=flat-square"
-  title: "GitHub Stars"
-  url: "https://github.com/chirag127/VidSummify-AI-YouTube-Video-Summarizer-Mobile-And-Web-App/stargazers"
+badges:
+  - name: Build Status
+    config:
+      label: CI/CD
+      style: flat-square
+      logo: github
+      color: success
+      message: passing
+      link: https://github.com/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App/actions/workflows/ci.yml
+    markdown: "[![Build Status](https://img.shields.io/github/actions/workflow/status/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App/ci.yml?label=CI%2FCD&style=flat-square&logo=github&color=success&message=passing)](https://github.com/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App/actions/workflows/ci.yml)"
+
+  - name: Code Coverage
+    config:
+      label: Coverage
+      style: flat-square
+      logo: codecov
+      color: brightgreen
+      link: https://codecov.io/gh/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App
+    markdown: "[![Code Coverage](https://img.shields.io/codecov/c/gh/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App?style=flat-square&logo=codecov&color=brightgreen)](https://codecov.io/gh/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App)"
+
+  - name: Primary Language
+    config:
+      label: Language
+      style: flat-square
+      logo: javascript
+      color: yellow
+      message: JavaScript
+    markdown: "[![Language](https://img.shields.io/badge/Language-JavaScript-yellow?style=flat-square&logo=javascript&logoColor=black)](https://www.typescriptlang.org/)"
+
+  - name: Framework Stack
+    config:
+      label: Stack
+      style: flat-square
+      color: 4d7d92
+      message: Expo/Node/Supabase
+    markdown: "[![Stack](https://img.shields.io/badge/Stack-Expo%2FNode%2FSupabase-4d7d92?style=flat-square&color=4d7d92&logoColor=white)]"
+
+  - name: License
+    config:
+      label: License
+      style: flat-square
+      color: lightgray
+      message: CC BY-NC 4.0
+    markdown: "[![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgray?style=flat-square&color=lightgray)](LICENSE)"
+
+  - name: GitHub Stars
+    config:
+      label: Stars
+      style: flat-square
+      color: orange
+      logo: github
+    markdown: "[![GitHub Stars](https://img.shields.io/github/stars/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App?style=flat-square&logo=github&color=orange)](https://github.com/chirag127/VisionDigest-AI-Video-Summarizer-Fullstack-App)"
